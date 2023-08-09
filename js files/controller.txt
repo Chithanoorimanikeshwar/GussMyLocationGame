@@ -1,0 +1,12 @@
+1.take the input from user through form
+2.check whether the input is valid or not.
+  t.2.2.check whether the user already entered the same region
+    t.alart the userusing view.
+    f.intimate model
+  f.alart user using view.
+3.if gamer over replace form with start new game.
+  
+
+properties
+1.previous entered data array.
+2.

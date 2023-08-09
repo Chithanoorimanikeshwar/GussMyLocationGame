@@ -1,0 +1,24 @@
+shipGenerate:
+1.random positioning of ship.
+  v.1.geneterate starting row position from 0to3
+  v.2.generate column postion from oto5
+  h.1.generate row postion from 0to5.
+  h.2.generate starting column position from 0to3.
+2.create a new ship array and push the  ganerated location into it
+3.return the array
+
+locations:
+1.using ship generation function generate three ships.
+2.check whether any colling amoung the ships.
+  t.regenerate the ships.
+  f.1.convert the generated ship locations to respective board locations.
+  f.2.send them to model locations properties.
+
+collisions:
+1.check the location collisions.
+  t.return false.
+  f.return true.
+
+covertion:
+1.convert the roandom generated locations into the form "A1".
+2.return the loactions

@@ -1,0 +1,23 @@
+model-2;
+1.increment gusss property
+2.check for guss is correct or not
+	t.increment no of ship sink property
+		2.1.ckeck if all ship were sink
+			t.inimate view object and stop user inputs.
+			f.continue
+
+	f.intimate view object and increment miss property.
+
+model-1:
+1.generate random locations and place the ships on the table;
+
+properties:
+1.no of ships.
+2.length of ships.
+3.ships locations
+	ship1;
+	ship2;
+	ship3;.../
+4.gusses
+5.misses.
+6.current sips sink rate.

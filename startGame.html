@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <title>startgameframe</title>
+  <style>
+    #main_div{
+      position:absolute;
+      background:url("./asserts/images/battlefield.jpg") no-repeat;
+      background-size:cover;
+      background-attachment:fixed;
+	width:100%;
+      height:100%;
+    }
+    body {
+      margin:0;
+    }
+    #display{
+      position:absolute;
+      top:0px;
+      left:0;
+  
+     }
+   #display p{
+      background:rgb(83,175,19);
+      position:relative;
+      font-size:2em;
+    }
+    #user_bottons{
+      
+      position:absolute;
+        top:50%;
+        left:20%;
+    }
+    #startwar{
+       width:25em;
+       border-radius:12px;
+       padding:2px;
+       height:4em;
+       border:5px solid rgb(83,175,19);
+       background:url("./asserts/images/startwar.gif") content-box;
+       background-size:cover;
+       color:white;
+       letter-spacing:2px;
+       
+    }
+    #settings:hover{
+      width:22em;
+    }
+    #startwar:hover{
+      width:22em;
+    }
+
+    #settings{
+      padding:2px;
+      border:5px solid rgb(83,175,19);
+      background:url("./asserts/images/startwar.gif") content-box;
+      background-size:cover;
+      margin-top:10%;
+      width:25em;
+      height:4em;
+      display:block;
+      border-radius:12px;
+      color:white;
+      letter-spacing:2px;
+      
+    }
+    #music {
+      position:absolute;
+      right:0px;
+      bottom:0px;
+    }
+    audio::-webkit-media-controls-panel{
+      background-color:rgb(83,175,19);
+    }
+
+   
+  </style>
+</head>
+<body>
+ <div id="main_div">
+    <div id="display">
+      <p> welcome captian </p>
+    </div>
+
+
+    <div id="user_bottons">
+     <a href="./html files/game_space.html" target="_top"><button id="startwar">start war</button></a>
+      <button id="settings">settings</button>
+    </div>
+
+    <div id="music">
+       <audio autoplay="true" controls="controls" loop="true">Backgroung music
+         <source src="./asserts/startpage.mp3"/>
+
+       </audio>
+    </div>
+ </div>
+</body>
+</html>
